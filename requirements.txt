@@ -10,7 +10,7 @@ python-jose
 python-multipart
 requests
 pytest
-httpx
+httpx>=0.23.0
 pytest-asyncio
 aiosqlite
 celery
