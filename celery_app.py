@@ -6,6 +6,7 @@ celery = Celery(
     broker=settings.celery_broker_url,
     backend=settings.celery_result_backend
 )
+#1
 
 @celery.task
 def send_mock_email(email: str):
