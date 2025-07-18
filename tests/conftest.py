@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlmodel import SQLModel
 from main import app, get_session
 app.router.on_startup.clear()
-from database import DATABASE_URL
+from settings import settings
 
 TEST_DATABASE_URL = "sqlite+aiosqlite:///./test.db"
 
